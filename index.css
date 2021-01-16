@@ -1,4 +1,21 @@
-/* Add CSS styles here! */
-body {
-  font-family: sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-600;
+  }
+}
+
+@layer components {
+  .VideoEditor video {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  .rc-slider-handle {
+    @apply border-gray-300 !important;
+  }
 }

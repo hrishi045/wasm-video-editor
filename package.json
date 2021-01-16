@@ -5,6 +5,24 @@
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.1.0",
+    "eslint": "^7.18.0",
+    "eslint-plugin-react": "^7.22.0",
+    "postcss-cli": "^8.3.1",
     "snowpack": "^3.0.1"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.8.5",
+    "@ffmpeg/ffmpeg": "^0.9.7",
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.4",
+    "prop-types": "^15.7.2",
+    "rc-slider": "^9.7.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-multi-bar-slider": "^1.4.0",
+    "react-video-renderer": "^2.4.6",
+    "tailwindcss": "^2.0.2",
+    "tslib": "^2.1.0"
   }
 }
