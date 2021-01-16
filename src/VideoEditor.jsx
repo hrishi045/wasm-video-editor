@@ -19,9 +19,9 @@ const VideoEditor = ({ video, onTrim }) => {
     <div className={'overflow-hidden bg-gray-700' + (video ? '' : ' h-96')}>
       {video ? (
         <MemoVideo src={URL.createObjectURL(video)}>
-          {(video, state, actions) => (
+          {(videoPlayer, state, actions) => (
             <div className="VideoEditor">
-              {video}
+              {videoPlayer}
               <div className="divide-y-2 divide-gray-600">
                 <div className="flex text-white divide-x-2 divide-gray-600">
                   <div>

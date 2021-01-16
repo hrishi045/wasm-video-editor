@@ -12,6 +12,10 @@
   .VideoEditor video {
     @apply w-full;
   }
+
+  .VideoEditor video:focus {
+    @apply outline-none;
+  }
 }
 
 @layer utilities {
