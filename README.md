@@ -11,8 +11,8 @@ yarn start
 
 ### Tools used
 
-- (FFMPEG.wasm)[https://ffmpegwasm.github.io/]
-- (react-video-renderer)[https://github.com/zzarcon/react-video-renderer]
-- (rc-slider)[https://github.com/react-component/slider/]
+- [FFMPEG.wasm](https://ffmpegwasm.github.io/)
+- [react-video-renderer](https://github.com/zzarcon/react-video-renderer/)
+- [rc-slider](https://github.com/react-component/slider/)
 
 License: ISC
